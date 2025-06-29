@@ -19,8 +19,8 @@ const AppContent: React.FC = () => {
       case 'voice':
         return (
           <div className="max-w-2xl mx-auto">
-            <VoiceInterface />
-            {/* <ElevenLabsVoiceInterface /> */}
+            {/* <VoiceInterface /> */}
+            <ElevenLabsVoiceInterface />
           </div>
         );
       default:
